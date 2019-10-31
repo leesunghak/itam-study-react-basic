@@ -1,24 +1,24 @@
 ## Introduction to React Components ##
 
 ### Overview ###
-This is a code-along workshop to introduce 5 major concepts in React:
-1. What is the React.Components class, how do I instantiate an instance.
-2. Rendering React.Components. How to  Use JSX to create React.Elements.
-3. What are the major React.Component lifecycle methods.
-4. How is state management done with React.Components.
-5. How are event handlers attached to rendered React.Components
-6. Controlled and Uncontrolled fields
+이 코드는 React의 5 가지 주요 컨셉트를 연습하기 위한 code-along workshop입니다: 
+1. React.Component class는 무엇이면 어떻게 instance를 instantiate 할 수 있는가.
+2. React.Component 렌더하기. JSX를 이용하여 React.Elements 만들기.
+3. 어떤 라이프 사이클 메서드가 있는지.
+4. State은 어떻게 관리되는가.
+5. 렌더된 React.Components에 어떻게 이벤트 핸들러를 붙히는가.
+6. 컨트롤된, 컨트롤 되지 않은 필드
 
 ### Instructions ###
-In the index.jsx file, fill out the component as follows
-1. Fill in the render function
-2. Initiate component state to store the user's email address input.
-3. Add a method to update the store with the user's email address input.
-4. Fetch a photo from 'https://source.unsplash.com/random' when the component first mounts
-5. Use the fetched photo from step 4 as the user's profile/avatar picture
-6. Complete the form submit method
-7. Add a completion message upon form submission
-7. Add the classNames found in index.scss to the completed component
+Index.jsx 파일에서 아래와 같이 컴포넌트를 만들어주세요
+1. render 함수 체워넣어주세요
+2. 유저의 email 주소 입력 값을 받기 위한 component state을 초기화 해주세요.
+3. 유저 email 주소를 최신화 하기 위한 method를 추가해주세요.
+4. Component가 처음 mount 했을 때 'https://source.unsplash.com/random'에서 사진을 fetch 해오세요.
+5. 윗 단계에서 Fetch 해온 사진을 유저의 프로필 사진으로 등록해주세요.
+6. 폼 제출 method를 완성해주세요.
+7. 완료 상태에 대한 메세지를 추가해주세요.
+8. 완성된 component들에 index.scss에 있는 className을 부여해주세요.
 
 ### Setup and Running ###
 1. Make sure you're using the latest version of node
