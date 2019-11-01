@@ -28,3 +28,12 @@ Index.jsx 파일에서 아래와 같이 컴포넌트를 만들어주세요
 2. Run `yarn` to install dependencies.
 3. Run `yarn dev` and visit the form on localhost:8080
 
+Yarn 미설치인 경우 Yarn 설치 법(mac만)
+
+Homebrew 사용하여 설치
+```brew install yarn```
+
+MacPorts 통해 설치 (Node 미설치인 경우 Node도 설치해줌)
+```sudo port install yarn```
+
+
