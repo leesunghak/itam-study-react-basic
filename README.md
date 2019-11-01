@@ -12,12 +12,15 @@
 ### Instructions ###
 Index.jsx 파일에서 아래와 같이 컴포넌트를 만들어주세요
 1. render 함수 체워넣어주세요
+**[element 렌더링 문서](https://ko.reactjs.org/docs/rendering-elements.html)**
 2. 유저의 email 주소 입력 값을 받기 위한 component state을 초기화 해주세요.
+**[state와 lifecycle 문서](https://ko.reactjs.org/docs/state-and-lifecycle.html)**
 3. 유저 email 주소를 최신화 하기 위한 method를 추가해주세요.
 4. Component가 처음 mount 했을 때 'https://source.unsplash.com/random'에서 사진을 fetch 해오세요.
 5. 윗 단계에서 Fetch 해온 사진을 유저의 프로필 사진으로 등록해주세요.
 6. 폼 제출 method를 완성해주세요.
 7. 완료 상태에 대한 메세지를 추가해주세요.
+**[조건부 렌더링 문서](https://ko.reactjs.org/docs/conditional-rendering.html)**
 8. 완성된 component들에 index.scss에 있는 className을 부여해주세요.
 
 ### Setup and Running ###
